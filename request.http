@@ -1,2 +1,14 @@
 ### Hello World Example
 GET http://localhost:3000/hello
+
+
+### Validation de l'objet utilisateur complet
+POST http://localhost:3000/signup
+Content-Type: application/json
+
+{
+  "email": "exemple@domaine.com",
+  "password": "Motdepasse1",
+  "age": 25,
+  "username": "Utilisateur"
+}
