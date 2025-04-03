@@ -7,8 +7,13 @@ POST http://localhost:3000/signup
 Content-Type: application/json
 
 {
-  "email": "exemple@domaine.com",
+  "email": "alalala@gmail.com",
   "password": "Motdepasse1",
   "age": 25,
   "username": "Utilisateur"
 }
+
+
+### Validation de l'objet utilisateur complet via query parameters
+GET http://localhost:3000/get_user?email=exemple@domaine.com&password=Motdepasse1&age=25&username=Utilisateur
+
