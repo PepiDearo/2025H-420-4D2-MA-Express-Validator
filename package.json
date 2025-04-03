@@ -1,0 +1,29 @@
+{
+  "name": "express-validator-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Exemple d'utilisation de express-validator dans une application Express.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archambaultv-prof/2025H-420-4D2-MA-Express-Validator.git"
+  },
+  "keywords": [
+    "Education"
+  ],
+  "author": "Vincent Archambault-Bouffard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/archambaultv-prof/2025H-420-4D2-MA-Express-Validator/issues"
+  },
+  "homepage": "https://github.com/archambaultv-prof/2025H-420-4D2-MA-Express-Validator#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "express-validator": "^7.2.0"
+  }
+}
